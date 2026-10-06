@@ -1,0 +1,497 @@
+Product_ID,Product_Name,Category,Sub_Category,Unit_Cost,Unit_Price
+PROD0001,Wireless Headphones,Electronics,Audio,1810.0,2250.0
+PROD0002,Bluetooth Speaker,Electronics,Audio,10760.0,15380.0
+PROD0003,Neckband,Electronics,Audio,390.0,690.0
+PROD0004,Soundbar,Electronics,Audio,320.0,410.0
+PROD0005,Wireless Mouse,Electronics,Computing,5570.0,7610.0
+PROD0006,Mechanical Keyboard,Electronics,Computing,280.0,340.0
+PROD0007,Laptop Stand,Electronics,Computing,15410.0,26400.0
+PROD0008,Webcam,Electronics,Computing,460.0,800.0
+PROD0009,Power Bank,Electronics,Mobile,1040.0,1540.0
+PROD0010,Fast Charger,Electronics,Mobile,1860.0,3060.0
+PROD0011,USB-C Cable,Electronics,Mobile,4530.0,8060.0
+PROD0012,Phone Case,Electronics,Mobile,910.0,1440.0
+PROD0013,Wireless Headphones Lite,Electronics,Audio,2640.0,3490.0
+PROD0014,Bluetooth Speaker Lite,Electronics,Audio,590.0,880.0
+PROD0015,Neckband Lite,Electronics,Audio,3880.0,7260.0
+PROD0016,Soundbar Lite,Electronics,Audio,4500.0,7870.0
+PROD0017,Wireless Mouse Lite,Electronics,Computing,350.0,430.0
+PROD0018,Mechanical Keyboard Lite,Electronics,Computing,41200.0,54030.0
+PROD0019,Laptop Stand Lite,Electronics,Computing,850.0,1540.0
+PROD0020,Webcam Lite,Electronics,Computing,7750.0,11890.0
+PROD0021,Power Bank Lite,Electronics,Mobile,390.0,580.0
+PROD0022,Fast Charger Lite,Electronics,Mobile,290.0,360.0
+PROD0023,USB-C Cable Lite,Electronics,Mobile,870.0,1210.0
+PROD0024,Phone Case Lite,Electronics,Mobile,1080.0,1600.0
+PROD0025,Wireless Headphones Plus,Electronics,Audio,3270.0,5680.0
+PROD0026,Bluetooth Speaker Plus,Electronics,Audio,41530.0,55190.0
+PROD0027,Neckband Plus,Electronics,Audio,37020.0,46950.0
+PROD0028,Soundbar Plus,Electronics,Audio,5960.0,7480.0
+PROD0029,Wireless Mouse Plus,Electronics,Computing,280.0,480.0
+PROD0030,Mechanical Keyboard Plus,Electronics,Computing,230.0,380.0
+PROD0031,Laptop Stand Plus,Electronics,Computing,1460.0,2430.0
+PROD0032,Webcam Plus,Electronics,Computing,16220.0,25870.0
+PROD0033,Power Bank Plus,Electronics,Mobile,930.0,1360.0
+PROD0034,Fast Charger Plus,Electronics,Mobile,490.0,640.0
+PROD0035,USB-C Cable Plus,Electronics,Mobile,370.0,450.0
+PROD0036,Phone Case Plus,Electronics,Mobile,11070.0,19100.0
+PROD0037,Wireless Headphones Pro,Electronics,Audio,240.0,310.0
+PROD0038,Bluetooth Speaker Pro,Electronics,Audio,9920.0,13430.0
+PROD0039,Neckband Pro,Electronics,Audio,10300.0,19000.0
+PROD0040,Soundbar Pro,Electronics,Audio,1140.0,2060.0
+PROD0041,Wireless Mouse Pro,Electronics,Computing,22010.0,31130.0
+PROD0042,Mechanical Keyboard Pro,Electronics,Computing,960.0,1780.0
+PROD0043,Laptop Stand Pro,Electronics,Computing,990.0,1600.0
+PROD0044,Webcam Pro,Electronics,Computing,10800.0,15180.0
+PROD0045,Power Bank Pro,Electronics,Mobile,23450.0,35440.0
+PROD0046,Fast Charger Pro,Electronics,Mobile,420.0,570.0
+PROD0047,USB-C Cable Pro,Electronics,Mobile,12360.0,17950.0
+PROD0048,Phone Case Pro,Electronics,Mobile,12670.0,18960.0
+PROD0049,Wireless Headphones Max,Electronics,Audio,3230.0,4990.0
+PROD0050,Bluetooth Speaker Max,Electronics,Audio,190.0,340.0
+PROD0051,Neckband Max,Electronics,Audio,260.0,360.0
+PROD0052,Soundbar Max,Electronics,Audio,1100.0,1630.0
+PROD0053,Wireless Mouse Max,Electronics,Computing,23520.0,39540.0
+PROD0054,Mechanical Keyboard Max,Electronics,Computing,2040.0,2730.0
+PROD0055,Laptop Stand Max,Electronics,Computing,560.0,1030.0
+PROD0056,Webcam Max,Electronics,Computing,810.0,1430.0
+PROD0057,Power Bank Max,Electronics,Mobile,33960.0,44540.0
+PROD0058,Fast Charger Max,Electronics,Mobile,7070.0,9050.0
+PROD0059,USB-C Cable Max,Electronics,Mobile,13020.0,22610.0
+PROD0060,Phone Case Max,Electronics,Mobile,24870.0,36470.0
+PROD0061,Wireless Headphones Classic,Electronics,Audio,18200.0,23070.0
+PROD0062,Bluetooth Speaker Classic,Electronics,Audio,920.0,1660.0
+PROD0063,Mixer Grinder,Home & Kitchen,Kitchen,270.0,410.0
+PROD0064,Electric Kettle,Home & Kitchen,Kitchen,4210.0,5410.0
+PROD0065,Air Fryer,Home & Kitchen,Kitchen,100.0,150.0
+PROD0066,Cookware Set,Home & Kitchen,Kitchen,550.0,930.0
+PROD0067,Bedsheet Set,Home & Kitchen,Home,160.0,250.0
+PROD0068,Curtains,Home & Kitchen,Home,5760.0,9340.0
+PROD0069,Storage Box,Home & Kitchen,Home,1070.0,1460.0
+PROD0070,Table Lamp,Home & Kitchen,Home,600.0,740.0
+PROD0071,Mixer Grinder Lite,Home & Kitchen,Kitchen,6060.0,10180.0
+PROD0072,Electric Kettle Lite,Home & Kitchen,Kitchen,810.0,1330.0
+PROD0073,Air Fryer Lite,Home & Kitchen,Kitchen,280.0,520.0
+PROD0074,Cookware Set Lite,Home & Kitchen,Kitchen,1460.0,2170.0
+PROD0075,Bedsheet Set Lite,Home & Kitchen,Home,110.0,190.0
+PROD0076,Curtains Lite,Home & Kitchen,Home,4750.0,8030.0
+PROD0077,Storage Box Lite,Home & Kitchen,Home,190.0,280.0
+PROD0078,Table Lamp Lite,Home & Kitchen,Home,6680.0,11270.0
+PROD0079,Mixer Grinder Plus,Home & Kitchen,Kitchen,2130.0,2850.0
+PROD0080,Electric Kettle Plus,Home & Kitchen,Kitchen,310.0,420.0
+PROD0081,Air Fryer Plus,Home & Kitchen,Kitchen,530.0,750.0
+PROD0082,Cookware Set Plus,Home & Kitchen,Kitchen,1640.0,2410.0
+PROD0083,Bedsheet Set Plus,Home & Kitchen,Home,170.0,220.0
+PROD0084,Curtains Plus,Home & Kitchen,Home,350.0,610.0
+PROD0085,Storage Box Plus,Home & Kitchen,Home,130.0,180.0
+PROD0086,Table Lamp Plus,Home & Kitchen,Home,1530.0,2920.0
+PROD0087,Mixer Grinder Pro,Home & Kitchen,Kitchen,830.0,1410.0
+PROD0088,Electric Kettle Pro,Home & Kitchen,Kitchen,1450.0,2530.0
+PROD0089,Air Fryer Pro,Home & Kitchen,Kitchen,1970.0,3100.0
+PROD0090,Cookware Set Pro,Home & Kitchen,Kitchen,5100.0,9090.0
+PROD0091,Bedsheet Set Pro,Home & Kitchen,Home,370.0,670.0
+PROD0092,Curtains Pro,Home & Kitchen,Home,6760.0,8630.0
+PROD0093,Storage Box Pro,Home & Kitchen,Home,330.0,460.0
+PROD0094,Table Lamp Pro,Home & Kitchen,Home,3700.0,5390.0
+PROD0095,Mixer Grinder Max,Home & Kitchen,Kitchen,910.0,1530.0
+PROD0096,Electric Kettle Max,Home & Kitchen,Kitchen,180.0,230.0
+PROD0097,Air Fryer Max,Home & Kitchen,Kitchen,5510.0,7760.0
+PROD0098,Cookware Set Max,Home & Kitchen,Kitchen,410.0,660.0
+PROD0099,Bedsheet Set Max,Home & Kitchen,Home,2850.0,3610.0
+PROD0100,Curtains Max,Home & Kitchen,Home,5520.0,7320.0
+PROD0101,Storage Box Max,Home & Kitchen,Home,1360.0,2500.0
+PROD0102,Table Lamp Max,Home & Kitchen,Home,240.0,300.0
+PROD0103,Mixer Grinder Classic,Home & Kitchen,Kitchen,1120.0,2140.0
+PROD0104,Electric Kettle Classic,Home & Kitchen,Kitchen,170.0,230.0
+PROD0105,Air Fryer Classic,Home & Kitchen,Kitchen,90.0,150.0
+PROD0106,Cookware Set Classic,Home & Kitchen,Kitchen,1210.0,1660.0
+PROD0107,Bedsheet Set Classic,Home & Kitchen,Home,1530.0,2610.0
+PROD0108,Curtains Classic,Home & Kitchen,Home,2010.0,3400.0
+PROD0109,Storage Box Classic,Home & Kitchen,Home,460.0,620.0
+PROD0110,Table Lamp Classic,Home & Kitchen,Home,2000.0,2580.0
+PROD0111,Mixer Grinder Premium,Home & Kitchen,Kitchen,1850.0,2680.0
+PROD0112,Electric Kettle Premium,Home & Kitchen,Kitchen,140.0,230.0
+PROD0113,Air Fryer Premium,Home & Kitchen,Kitchen,280.0,480.0
+PROD0114,Cookware Set Premium,Home & Kitchen,Kitchen,6800.0,10660.0
+PROD0115,Bedsheet Set Premium,Home & Kitchen,Home,5310.0,7480.0
+PROD0116,Curtains Premium,Home & Kitchen,Home,3270.0,4880.0
+PROD0117,Storage Box Premium,Home & Kitchen,Home,1260.0,1880.0
+PROD0118,Table Lamp Premium,Home & Kitchen,Home,260.0,350.0
+PROD0119,Mixer Grinder Ultra,Home & Kitchen,Kitchen,270.0,510.0
+PROD0120,Electric Kettle Ultra,Home & Kitchen,Kitchen,1460.0,2540.0
+PROD0121,Air Fryer Ultra,Home & Kitchen,Kitchen,7450.0,9240.0
+PROD0122,Cookware Set Ultra,Home & Kitchen,Kitchen,5210.0,8260.0
+PROD0123,Bedsheet Set Ultra,Home & Kitchen,Home,130.0,160.0
+PROD0124,Curtains Ultra,Home & Kitchen,Home,790.0,980.0
+PROD0125,Casual Shirt,Fashion,Men,5470.0,7050.0
+PROD0126,Jeans,Fashion,Men,440.0,690.0
+PROD0127,Running Shoes,Fashion,Men,2940.0,4780.0
+PROD0128,Hoodie,Fashion,Men,310.0,450.0
+PROD0129,Kurti,Fashion,Women,4670.0,6410.0
+PROD0130,Saree,Fashion,Women,990.0,1800.0
+PROD0131,Handbag,Fashion,Women,1720.0,2110.0
+PROD0132,Women Sneakers,Fashion,Women,280.0,410.0
+PROD0133,Casual Shirt Lite,Fashion,Men,3880.0,5230.0
+PROD0134,Jeans Lite,Fashion,Men,2050.0,2800.0
+PROD0135,Running Shoes Lite,Fashion,Men,530.0,870.0
+PROD0136,Hoodie Lite,Fashion,Men,3150.0,4130.0
+PROD0137,Kurti Lite,Fashion,Women,4010.0,5050.0
+PROD0138,Saree Lite,Fashion,Women,990.0,1470.0
+PROD0139,Handbag Lite,Fashion,Women,2850.0,3980.0
+PROD0140,Women Sneakers Lite,Fashion,Women,2160.0,2850.0
+PROD0141,Casual Shirt Plus,Fashion,Men,3390.0,5460.0
+PROD0142,Jeans Plus,Fashion,Men,500.0,920.0
+PROD0143,Running Shoes Plus,Fashion,Men,980.0,1850.0
+PROD0144,Hoodie Plus,Fashion,Men,860.0,1260.0
+PROD0145,Kurti Plus,Fashion,Women,470.0,670.0
+PROD0146,Saree Plus,Fashion,Women,150.0,280.0
+PROD0147,Handbag Plus,Fashion,Women,2720.0,4330.0
+PROD0148,Women Sneakers Plus,Fashion,Women,260.0,390.0
+PROD0149,Casual Shirt Pro,Fashion,Men,2110.0,3600.0
+PROD0150,Jeans Pro,Fashion,Men,1180.0,2170.0
+PROD0151,Running Shoes Pro,Fashion,Men,200.0,300.0
+PROD0152,Hoodie Pro,Fashion,Men,1160.0,1630.0
+PROD0153,Kurti Pro,Fashion,Women,2520.0,3100.0
+PROD0154,Saree Pro,Fashion,Women,930.0,1500.0
+PROD0155,Handbag Pro,Fashion,Women,2360.0,3930.0
+PROD0156,Women Sneakers Pro,Fashion,Women,620.0,1140.0
+PROD0157,Casual Shirt Max,Fashion,Men,220.0,270.0
+PROD0158,Jeans Max,Fashion,Men,3300.0,4530.0
+PROD0159,Running Shoes Max,Fashion,Men,590.0,1030.0
+PROD0160,Hoodie Max,Fashion,Men,260.0,430.0
+PROD0161,Kurti Max,Fashion,Women,1230.0,1680.0
+PROD0162,Saree Max,Fashion,Women,1490.0,2460.0
+PROD0163,Handbag Max,Fashion,Women,5070.0,6840.0
+PROD0164,Women Sneakers Max,Fashion,Women,1200.0,1710.0
+PROD0165,Casual Shirt Classic,Fashion,Men,640.0,1070.0
+PROD0166,Jeans Classic,Fashion,Men,640.0,860.0
+PROD0167,Running Shoes Classic,Fashion,Men,140.0,260.0
+PROD0168,Hoodie Classic,Fashion,Men,150.0,290.0
+PROD0169,Kurti Classic,Fashion,Women,3550.0,4850.0
+PROD0170,Saree Classic,Fashion,Women,710.0,1290.0
+PROD0171,Handbag Classic,Fashion,Women,910.0,1370.0
+PROD0172,Women Sneakers Classic,Fashion,Women,300.0,460.0
+PROD0173,Casual Shirt Premium,Fashion,Men,700.0,990.0
+PROD0174,Jeans Premium,Fashion,Men,1210.0,2260.0
+PROD0175,Running Shoes Premium,Fashion,Men,650.0,920.0
+PROD0176,Hoodie Premium,Fashion,Men,1110.0,1430.0
+PROD0177,Kurti Premium,Fashion,Women,1390.0,2450.0
+PROD0178,Saree Premium,Fashion,Women,230.0,320.0
+PROD0179,Handbag Premium,Fashion,Women,190.0,270.0
+PROD0180,Women Sneakers Premium,Fashion,Women,4500.0,6500.0
+PROD0181,Casual Shirt Ultra,Fashion,Men,680.0,960.0
+PROD0182,Jeans Ultra,Fashion,Men,830.0,1220.0
+PROD0183,Running Shoes Ultra,Fashion,Men,4150.0,6530.0
+PROD0184,Hoodie Ultra,Fashion,Men,5530.0,6990.0
+PROD0185,Kurti Ultra,Fashion,Women,260.0,490.0
+PROD0186,Saree Ultra,Fashion,Women,180.0,350.0
+PROD0187,Face Wash,Beauty,Skincare,100.0,140.0
+PROD0188,Moisturizer,Beauty,Skincare,80.0,130.0
+PROD0189,Sunscreen,Beauty,Skincare,1440.0,2730.0
+PROD0190,Face Serum,Beauty,Skincare,1460.0,2420.0
+PROD0191,Shampoo,Beauty,Haircare,120.0,160.0
+PROD0192,Conditioner,Beauty,Haircare,920.0,1170.0
+PROD0193,Hair Oil,Beauty,Haircare,1350.0,1770.0
+PROD0194,Hair Dryer,Beauty,Haircare,170.0,300.0
+PROD0195,Face Wash Lite,Beauty,Skincare,1430.0,1880.0
+PROD0196,Moisturizer Lite,Beauty,Skincare,3100.0,4820.0
+PROD0197,Sunscreen Lite,Beauty,Skincare,320.0,430.0
+PROD0198,Face Serum Lite,Beauty,Skincare,300.0,380.0
+PROD0199,Shampoo Lite,Beauty,Haircare,1860.0,2870.0
+PROD0200,Conditioner Lite,Beauty,Haircare,1410.0,1890.0
+PROD0201,Hair Oil Lite,Beauty,Haircare,120.0,150.0
+PROD0202,Hair Dryer Lite,Beauty,Haircare,550.0,720.0
+PROD0203,Face Wash Plus,Beauty,Skincare,280.0,350.0
+PROD0204,Moisturizer Plus,Beauty,Skincare,240.0,460.0
+PROD0205,Sunscreen Plus,Beauty,Skincare,1890.0,3450.0
+PROD0206,Face Serum Plus,Beauty,Skincare,280.0,350.0
+PROD0207,Shampoo Plus,Beauty,Haircare,2850.0,4120.0
+PROD0208,Conditioner Plus,Beauty,Haircare,770.0,1180.0
+PROD0209,Hair Oil Plus,Beauty,Haircare,190.0,310.0
+PROD0210,Hair Dryer Plus,Beauty,Haircare,1040.0,1390.0
+PROD0211,Face Wash Pro,Beauty,Skincare,1670.0,2210.0
+PROD0212,Moisturizer Pro,Beauty,Skincare,90.0,140.0
+PROD0213,Sunscreen Pro,Beauty,Skincare,90.0,130.0
+PROD0214,Face Serum Pro,Beauty,Skincare,440.0,560.0
+PROD0215,Shampoo Pro,Beauty,Haircare,220.0,390.0
+PROD0216,Conditioner Pro,Beauty,Haircare,130.0,170.0
+PROD0217,Hair Oil Pro,Beauty,Haircare,620.0,1120.0
+PROD0218,Hair Dryer Pro,Beauty,Haircare,100.0,140.0
+PROD0219,Face Wash Max,Beauty,Skincare,100.0,130.0
+PROD0220,Moisturizer Max,Beauty,Skincare,860.0,1580.0
+PROD0221,Sunscreen Max,Beauty,Skincare,110.0,140.0
+PROD0222,Face Serum Max,Beauty,Skincare,270.0,430.0
+PROD0223,Shampoo Max,Beauty,Haircare,1930.0,2400.0
+PROD0224,Conditioner Max,Beauty,Haircare,3530.0,4730.0
+PROD0225,Hair Oil Max,Beauty,Haircare,240.0,440.0
+PROD0226,Hair Dryer Max,Beauty,Haircare,1440.0,2090.0
+PROD0227,Face Wash Classic,Beauty,Skincare,420.0,530.0
+PROD0228,Moisturizer Classic,Beauty,Skincare,100.0,150.0
+PROD0229,Sunscreen Classic,Beauty,Skincare,70.0,100.0
+PROD0230,Face Serum Classic,Beauty,Skincare,70.0,120.0
+PROD0231,Shampoo Classic,Beauty,Haircare,110.0,160.0
+PROD0232,Conditioner Classic,Beauty,Haircare,1290.0,1850.0
+PROD0233,Hair Oil Classic,Beauty,Haircare,2730.0,4310.0
+PROD0234,Hair Dryer Classic,Beauty,Haircare,240.0,310.0
+PROD0235,Face Wash Premium,Beauty,Skincare,190.0,240.0
+PROD0236,Moisturizer Premium,Beauty,Skincare,80.0,100.0
+PROD0237,Sunscreen Premium,Beauty,Skincare,90.0,120.0
+PROD0238,Face Serum Premium,Beauty,Skincare,650.0,790.0
+PROD0239,Shampoo Premium,Beauty,Haircare,90.0,130.0
+PROD0240,Conditioner Premium,Beauty,Haircare,3000.0,4430.0
+PROD0241,Hair Oil Premium,Beauty,Haircare,850.0,1170.0
+PROD0242,Hair Dryer Premium,Beauty,Haircare,420.0,590.0
+PROD0243,Face Wash Ultra,Beauty,Skincare,770.0,980.0
+PROD0244,Moisturizer Ultra,Beauty,Skincare,70.0,120.0
+PROD0245,Sunscreen Ultra,Beauty,Skincare,3240.0,4120.0
+PROD0246,Face Serum Ultra,Beauty,Skincare,420.0,590.0
+PROD0247,Shampoo Ultra,Beauty,Haircare,170.0,300.0
+PROD0248,Conditioner Ultra,Beauty,Haircare,380.0,610.0
+PROD0249,Yoga Mat,Sports,Fitness,1200.0,2200.0
+PROD0250,Dumbbell Set,Sports,Fitness,10880.0,13330.0
+PROD0251,Resistance Bands,Sports,Fitness,2550.0,3740.0
+PROD0252,Skipping Rope,Sports,Fitness,470.0,620.0
+PROD0253,Cricket Bat,Sports,Outdoor,2000.0,3510.0
+PROD0254,Football,Sports,Outdoor,7630.0,9950.0
+PROD0255,Badminton Racket,Sports,Outdoor,8780.0,11900.0
+PROD0256,Sports Bag,Sports,Outdoor,1630.0,2530.0
+PROD0257,Yoga Mat Lite,Sports,Fitness,8580.0,11000.0
+PROD0258,Dumbbell Set Lite,Sports,Fitness,100.0,180.0
+PROD0259,Resistance Bands Lite,Sports,Fitness,650.0,850.0
+PROD0260,Skipping Rope Lite,Sports,Fitness,8000.0,14150.0
+PROD0261,Cricket Bat Lite,Sports,Outdoor,1470.0,2310.0
+PROD0262,Football Lite,Sports,Outdoor,10090.0,13060.0
+PROD0263,Badminton Racket Lite,Sports,Outdoor,4700.0,7120.0
+PROD0264,Sports Bag Lite,Sports,Outdoor,610.0,1010.0
+PROD0265,Yoga Mat Plus,Sports,Fitness,150.0,190.0
+PROD0266,Dumbbell Set Plus,Sports,Fitness,5200.0,6340.0
+PROD0267,Resistance Bands Plus,Sports,Fitness,10140.0,14770.0
+PROD0268,Skipping Rope Plus,Sports,Fitness,4160.0,5180.0
+PROD0269,Cricket Bat Plus,Sports,Outdoor,4460.0,7510.0
+PROD0270,Football Plus,Sports,Outdoor,660.0,1190.0
+PROD0271,Badminton Racket Plus,Sports,Outdoor,8520.0,12140.0
+PROD0272,Sports Bag Plus,Sports,Outdoor,310.0,430.0
+PROD0273,Yoga Mat Pro,Sports,Fitness,1620.0,2580.0
+PROD0274,Dumbbell Set Pro,Sports,Fitness,180.0,250.0
+PROD0275,Resistance Bands Pro,Sports,Fitness,1240.0,1650.0
+PROD0276,Skipping Rope Pro,Sports,Fitness,1280.0,1650.0
+PROD0277,Cricket Bat Pro,Sports,Outdoor,1310.0,1910.0
+PROD0278,Football Pro,Sports,Outdoor,5450.0,8500.0
+PROD0279,Badminton Racket Pro,Sports,Outdoor,150.0,280.0
+PROD0280,Sports Bag Pro,Sports,Outdoor,3430.0,4860.0
+PROD0281,Yoga Mat Max,Sports,Fitness,2240.0,3840.0
+PROD0282,Dumbbell Set Max,Sports,Fitness,150.0,280.0
+PROD0283,Resistance Bands Max,Sports,Fitness,520.0,750.0
+PROD0284,Skipping Rope Max,Sports,Fitness,590.0,910.0
+PROD0285,Cricket Bat Max,Sports,Outdoor,6030.0,9650.0
+PROD0286,Football Max,Sports,Outdoor,1210.0,1600.0
+PROD0287,Badminton Racket Max,Sports,Outdoor,660.0,930.0
+PROD0288,Sports Bag Max,Sports,Outdoor,6410.0,7960.0
+PROD0289,Yoga Mat Classic,Sports,Fitness,240.0,300.0
+PROD0290,Dumbbell Set Classic,Sports,Fitness,870.0,1450.0
+PROD0291,Resistance Bands Classic,Sports,Fitness,1010.0,1240.0
+PROD0292,Skipping Rope Classic,Sports,Fitness,900.0,1450.0
+PROD0293,Cricket Bat Classic,Sports,Outdoor,1640.0,2770.0
+PROD0294,Football Classic,Sports,Outdoor,120.0,210.0
+PROD0295,Badminton Racket Classic,Sports,Outdoor,150.0,270.0
+PROD0296,Sports Bag Classic,Sports,Outdoor,200.0,280.0
+PROD0297,Yoga Mat Premium,Sports,Fitness,220.0,350.0
+PROD0298,Dumbbell Set Premium,Sports,Fitness,6180.0,9330.0
+PROD0299,Resistance Bands Premium,Sports,Fitness,1850.0,3240.0
+PROD0300,Skipping Rope Premium,Sports,Fitness,190.0,360.0
+PROD0301,Cricket Bat Premium,Sports,Outdoor,200.0,330.0
+PROD0302,Football Premium,Sports,Outdoor,190.0,340.0
+PROD0303,Badminton Racket Premium,Sports,Outdoor,170.0,260.0
+PROD0304,Sports Bag Premium,Sports,Outdoor,250.0,390.0
+PROD0305,Yoga Mat Ultra,Sports,Fitness,1110.0,1520.0
+PROD0306,Dumbbell Set Ultra,Sports,Fitness,140.0,180.0
+PROD0307,Resistance Bands Ultra,Sports,Fitness,1470.0,2700.0
+PROD0308,Skipping Rope Ultra,Sports,Fitness,6670.0,8380.0
+PROD0309,Cricket Bat Ultra,Sports,Outdoor,120.0,200.0
+PROD0310,Football Ultra,Sports,Outdoor,4570.0,6140.0
+PROD0311,Python Programming,Books,Education,140.0,240.0
+PROD0312,Data Analytics,Books,Education,250.0,380.0
+PROD0313,DBMS Fundamentals,Books,Education,440.0,700.0
+PROD0314,Machine Learning,Books,Education,350.0,470.0
+PROD0315,Business Strategy,Books,Business,100.0,160.0
+PROD0316,Marketing Basics,Books,Business,690.0,880.0
+PROD0317,Personal Finance,Books,Business,360.0,530.0
+PROD0318,Leadership,Books,Business,130.0,200.0
+PROD0319,Python Programming Lite,Books,Education,330.0,560.0
+PROD0320,Data Analytics Lite,Books,Education,180.0,290.0
+PROD0321,DBMS Fundamentals Lite,Books,Education,100.0,160.0
+PROD0322,Machine Learning Lite,Books,Education,150.0,250.0
+PROD0323,Business Strategy Lite,Books,Business,160.0,200.0
+PROD0324,Marketing Basics Lite,Books,Business,480.0,660.0
+PROD0325,Personal Finance Lite,Books,Business,720.0,1070.0
+PROD0326,Leadership Lite,Books,Business,130.0,190.0
+PROD0327,Python Programming Plus,Books,Education,480.0,640.0
+PROD0328,Data Analytics Plus,Books,Education,250.0,440.0
+PROD0329,DBMS Fundamentals Plus,Books,Education,190.0,300.0
+PROD0330,Machine Learning Plus,Books,Education,520.0,750.0
+PROD0331,Business Strategy Plus,Books,Business,290.0,360.0
+PROD0332,Marketing Basics Plus,Books,Business,400.0,680.0
+PROD0333,Personal Finance Plus,Books,Business,110.0,190.0
+PROD0334,Leadership Plus,Books,Business,160.0,280.0
+PROD0335,Python Programming Pro,Books,Education,150.0,240.0
+PROD0336,Data Analytics Pro,Books,Education,180.0,230.0
+PROD0337,DBMS Fundamentals Pro,Books,Education,120.0,180.0
+PROD0338,Machine Learning Pro,Books,Education,340.0,420.0
+PROD0339,Business Strategy Pro,Books,Business,130.0,200.0
+PROD0340,Marketing Basics Pro,Books,Business,1300.0,1670.0
+PROD0341,Personal Finance Pro,Books,Business,680.0,1140.0
+PROD0342,Leadership Pro,Books,Business,170.0,230.0
+PROD0343,Python Programming Max,Books,Education,1040.0,1510.0
+PROD0344,Data Analytics Max,Books,Education,370.0,620.0
+PROD0345,DBMS Fundamentals Max,Books,Education,590.0,1020.0
+PROD0346,Machine Learning Max,Books,Education,220.0,340.0
+PROD0347,Business Strategy Max,Books,Business,310.0,530.0
+PROD0348,Marketing Basics Max,Books,Business,140.0,200.0
+PROD0349,Personal Finance Max,Books,Business,220.0,310.0
+PROD0350,Leadership Max,Books,Business,150.0,220.0
+PROD0351,Python Programming Classic,Books,Education,300.0,560.0
+PROD0352,Data Analytics Classic,Books,Education,200.0,350.0
+PROD0353,DBMS Fundamentals Classic,Books,Education,150.0,180.0
+PROD0354,Machine Learning Classic,Books,Education,250.0,330.0
+PROD0355,Business Strategy Classic,Books,Business,200.0,280.0
+PROD0356,Marketing Basics Classic,Books,Business,690.0,990.0
+PROD0357,Personal Finance Classic,Books,Business,310.0,480.0
+PROD0358,Leadership Classic,Books,Business,290.0,360.0
+PROD0359,Python Programming Premium,Books,Education,960.0,1180.0
+PROD0360,Data Analytics Premium,Books,Education,150.0,200.0
+PROD0361,DBMS Fundamentals Premium,Books,Education,880.0,1540.0
+PROD0362,Machine Learning Premium,Books,Education,130.0,180.0
+PROD0363,Business Strategy Premium,Books,Business,490.0,630.0
+PROD0364,Marketing Basics Premium,Books,Business,160.0,210.0
+PROD0365,Personal Finance Premium,Books,Business,140.0,250.0
+PROD0366,Leadership Premium,Books,Business,180.0,230.0
+PROD0367,Python Programming Ultra,Books,Education,530.0,780.0
+PROD0368,Data Analytics Ultra,Books,Education,290.0,370.0
+PROD0369,DBMS Fundamentals Ultra,Books,Education,310.0,400.0
+PROD0370,Machine Learning Ultra,Books,Education,280.0,450.0
+PROD0371,Business Strategy Ultra,Books,Business,290.0,470.0
+PROD0372,Marketing Basics Ultra,Books,Business,640.0,960.0
+PROD0373,Basmati Rice,Grocery,Staples,140.0,180.0
+PROD0374,Wheat Flour,Grocery,Staples,200.0,300.0
+PROD0375,Cooking Oil,Grocery,Staples,1280.0,1810.0
+PROD0376,Toor Dal,Grocery,Staples,100.0,120.0
+PROD0377,Namkeen,Grocery,Snacks,430.0,690.0
+PROD0378,Biscuits,Grocery,Snacks,100.0,130.0
+PROD0379,Dry Fruits,Grocery,Snacks,460.0,680.0
+PROD0380,Breakfast Cereal,Grocery,Snacks,1320.0,1740.0
+PROD0381,Basmati Rice Lite,Grocery,Staples,80.0,130.0
+PROD0382,Wheat Flour Lite,Grocery,Staples,140.0,190.0
+PROD0383,Cooking Oil Lite,Grocery,Staples,60.0,90.0
+PROD0384,Toor Dal Lite,Grocery,Staples,860.0,1100.0
+PROD0385,Namkeen Lite,Grocery,Snacks,200.0,260.0
+PROD0386,Biscuits Lite,Grocery,Snacks,90.0,120.0
+PROD0387,Dry Fruits Lite,Grocery,Snacks,80.0,120.0
+PROD0388,Breakfast Cereal Lite,Grocery,Snacks,700.0,1240.0
+PROD0389,Basmati Rice Plus,Grocery,Staples,130.0,180.0
+PROD0390,Wheat Flour Plus,Grocery,Staples,680.0,950.0
+PROD0391,Cooking Oil Plus,Grocery,Staples,590.0,870.0
+PROD0392,Toor Dal Plus,Grocery,Staples,120.0,190.0
+PROD0393,Namkeen Plus,Grocery,Snacks,120.0,150.0
+PROD0394,Biscuits Plus,Grocery,Snacks,380.0,600.0
+PROD0395,Dry Fruits Plus,Grocery,Snacks,310.0,390.0
+PROD0396,Breakfast Cereal Plus,Grocery,Snacks,100.0,140.0
+PROD0397,Basmati Rice Pro,Grocery,Staples,320.0,460.0
+PROD0398,Wheat Flour Pro,Grocery,Staples,70.0,90.0
+PROD0399,Cooking Oil Pro,Grocery,Staples,1370.0,1980.0
+PROD0400,Toor Dal Pro,Grocery,Staples,700.0,880.0
+PROD0401,Namkeen Pro,Grocery,Snacks,510.0,910.0
+PROD0402,Biscuits Pro,Grocery,Snacks,410.0,580.0
+PROD0403,Dry Fruits Pro,Grocery,Snacks,250.0,340.0
+PROD0404,Breakfast Cereal Pro,Grocery,Snacks,1590.0,1990.0
+PROD0405,Basmati Rice Max,Grocery,Staples,210.0,380.0
+PROD0406,Wheat Flour Max,Grocery,Staples,1830.0,2370.0
+PROD0407,Cooking Oil Max,Grocery,Staples,100.0,120.0
+PROD0408,Toor Dal Max,Grocery,Staples,1080.0,1600.0
+PROD0409,Namkeen Max,Grocery,Snacks,390.0,610.0
+PROD0410,Biscuits Max,Grocery,Snacks,60.0,100.0
+PROD0411,Dry Fruits Max,Grocery,Snacks,660.0,1270.0
+PROD0412,Breakfast Cereal Max,Grocery,Snacks,160.0,250.0
+PROD0413,Basmati Rice Classic,Grocery,Staples,410.0,510.0
+PROD0414,Wheat Flour Classic,Grocery,Staples,160.0,260.0
+PROD0415,Cooking Oil Classic,Grocery,Staples,660.0,1010.0
+PROD0416,Toor Dal Classic,Grocery,Staples,110.0,170.0
+PROD0417,Namkeen Classic,Grocery,Snacks,70.0,130.0
+PROD0418,Biscuits Classic,Grocery,Snacks,280.0,440.0
+PROD0419,Dry Fruits Classic,Grocery,Snacks,1170.0,1860.0
+PROD0420,Breakfast Cereal Classic,Grocery,Snacks,420.0,590.0
+PROD0421,Basmati Rice Premium,Grocery,Staples,60.0,80.0
+PROD0422,Wheat Flour Premium,Grocery,Staples,120.0,150.0
+PROD0423,Cooking Oil Premium,Grocery,Staples,80.0,130.0
+PROD0424,Toor Dal Premium,Grocery,Staples,90.0,110.0
+PROD0425,Namkeen Premium,Grocery,Snacks,310.0,450.0
+PROD0426,Biscuits Premium,Grocery,Snacks,70.0,100.0
+PROD0427,Dry Fruits Premium,Grocery,Snacks,130.0,160.0
+PROD0428,Breakfast Cereal Premium,Grocery,Snacks,90.0,160.0
+PROD0429,Basmati Rice Ultra,Grocery,Staples,60.0,90.0
+PROD0430,Wheat Flour Ultra,Grocery,Staples,300.0,560.0
+PROD0431,Cooking Oil Ultra,Grocery,Staples,750.0,1150.0
+PROD0432,Toor Dal Ultra,Grocery,Staples,320.0,490.0
+PROD0433,Namkeen Ultra,Grocery,Snacks,220.0,320.0
+PROD0434,Biscuits Ultra,Grocery,Snacks,80.0,140.0
+PROD0435,Backpack,Accessories,Bags,4680.0,5820.0
+PROD0436,Laptop Bag,Accessories,Bags,520.0,860.0
+PROD0437,Travel Bag,Accessories,Bags,1590.0,2480.0
+PROD0438,Sling Bag,Accessories,Bags,120.0,220.0
+PROD0439,Analog Watch,Accessories,Personal,2360.0,3290.0
+PROD0440,Wallet,Accessories,Personal,130.0,220.0
+PROD0441,Sunglasses,Accessories,Personal,350.0,490.0
+PROD0442,Belt,Accessories,Personal,120.0,220.0
+PROD0443,Backpack Lite,Accessories,Bags,2620.0,4570.0
+PROD0444,Laptop Bag Lite,Accessories,Bags,1520.0,2570.0
+PROD0445,Travel Bag Lite,Accessories,Bags,180.0,300.0
+PROD0446,Sling Bag Lite,Accessories,Bags,2620.0,3370.0
+PROD0447,Analog Watch Lite,Accessories,Personal,3290.0,5150.0
+PROD0448,Wallet Lite,Accessories,Personal,1590.0,2730.0
+PROD0449,Sunglasses Lite,Accessories,Personal,500.0,630.0
+PROD0450,Belt Lite,Accessories,Personal,110.0,210.0
+PROD0451,Backpack Plus,Accessories,Bags,240.0,450.0
+PROD0452,Laptop Bag Plus,Accessories,Bags,280.0,410.0
+PROD0453,Travel Bag Plus,Accessories,Bags,820.0,1040.0
+PROD0454,Sling Bag Plus,Accessories,Bags,3050.0,4900.0
+PROD0455,Analog Watch Plus,Accessories,Personal,350.0,550.0
+PROD0456,Wallet Plus,Accessories,Personal,1210.0,2010.0
+PROD0457,Sunglasses Plus,Accessories,Personal,1480.0,2300.0
+PROD0458,Belt Plus,Accessories,Personal,1130.0,1730.0
+PROD0459,Backpack Pro,Accessories,Bags,510.0,630.0
+PROD0460,Laptop Bag Pro,Accessories,Bags,2230.0,3970.0
+PROD0461,Travel Bag Pro,Accessories,Bags,3980.0,5980.0
+PROD0462,Sling Bag Pro,Accessories,Bags,5030.0,6620.0
+PROD0463,Analog Watch Pro,Accessories,Personal,560.0,1060.0
+PROD0464,Wallet Pro,Accessories,Personal,390.0,570.0
+PROD0465,Sunglasses Pro,Accessories,Personal,1420.0,2380.0
+PROD0466,Belt Pro,Accessories,Personal,260.0,340.0
+PROD0467,Backpack Max,Accessories,Bags,6380.0,9410.0
+PROD0468,Laptop Bag Max,Accessories,Bags,230.0,390.0
+PROD0469,Travel Bag Max,Accessories,Bags,170.0,210.0
+PROD0470,Sling Bag Max,Accessories,Bags,220.0,320.0
+PROD0471,Analog Watch Max,Accessories,Personal,400.0,580.0
+PROD0472,Wallet Max,Accessories,Personal,1970.0,2560.0
+PROD0473,Sunglasses Max,Accessories,Personal,240.0,450.0
+PROD0474,Belt Max,Accessories,Personal,270.0,340.0
+PROD0475,Backpack Classic,Accessories,Bags,4270.0,6110.0
+PROD0476,Laptop Bag Classic,Accessories,Bags,1510.0,2100.0
+PROD0477,Travel Bag Classic,Accessories,Bags,320.0,400.0
+PROD0478,Sling Bag Classic,Accessories,Bags,650.0,1030.0
+PROD0479,Analog Watch Classic,Accessories,Personal,810.0,1520.0
+PROD0480,Wallet Classic,Accessories,Personal,280.0,380.0
+PROD0481,Sunglasses Classic,Accessories,Personal,200.0,280.0
+PROD0482,Belt Classic,Accessories,Personal,330.0,520.0
+PROD0483,Backpack Premium,Accessories,Bags,390.0,620.0
+PROD0484,Laptop Bag Premium,Accessories,Bags,2030.0,3330.0
+PROD0485,Travel Bag Premium,Accessories,Bags,1210.0,1830.0
+PROD0486,Sling Bag Premium,Accessories,Bags,2150.0,2680.0
+PROD0487,Analog Watch Premium,Accessories,Personal,2050.0,3510.0
+PROD0488,Wallet Premium,Accessories,Personal,140.0,230.0
+PROD0489,Sunglasses Premium,Accessories,Personal,1100.0,2050.0
+PROD0490,Belt Premium,Accessories,Personal,970.0,1390.0
+PROD0491,Backpack Ultra,Accessories,Bags,560.0,740.0
+PROD0492,Laptop Bag Ultra,Accessories,Bags,160.0,300.0
+PROD0493,Travel Bag Ultra,Accessories,Bags,2310.0,3450.0
+PROD0494,Sling Bag Ultra,Accessories,Bags,1930.0,2960.0
+PROD0495,Analog Watch Ultra,Accessories,Personal,400.0,520.0
+PROD0496,Wallet Ultra,Accessories,Personal,3320.0,4560.0
