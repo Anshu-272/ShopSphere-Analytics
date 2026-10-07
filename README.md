@@ -1,436 +1,355 @@
-# 🛒 ShopSphere — E-Commerce Sales & Profitability Analytics
+🛒 ShopSphere — E-Commerce Sales & Profitability Analytics
 
-An end-to-end **Data Analytics project** analyzing e-commerce sales, profitability, customer behavior, product performance, shipping operations, and returns using **Excel, SQL, Python, and Power BI**.
+An end-to-end Data Analytics project analyzing e-commerce sales, profitability, customer behavior, product performance, shipping operations, and returns using Excel, SQL, Python, and Power BI.
 
----
+📌 Project Overview
 
-## 📌 Project Overview
+ShopSphere is an e-commerce analytics project designed to answer real-world business questions such as:
 
-**ShopSphere** is an e-commerce analytics project designed to answer real-world business questions such as:
+Which products and categories generate the most revenue?
 
-- Which products and categories generate the most revenue?
-- Which products are the most profitable?
-- Which categories have the highest profit margins?
-- How effective are the company's delivery operations?
-- Which states experience more delivery delays?
-- What are the major reasons for product returns?
-- Which customers generate the most revenue?
-- How does customer behavior affect revenue?
-- How do discounts affect profitability?
+Which products are the most profitable?
+
+Which categories have the highest profit margins?
+
+How effective are delivery operations?
+
+Which states experience more delivery delays?
+
+What are the major reasons for product returns?
+
+Which customers generate the most revenue?
+
+How does customer purchase frequency affect revenue?
+
+How do discounts affect profitability?
 
 The project follows a complete analytics workflow:
 
-**Raw Data → Data Cleaning → SQL Analysis → Python EDA → Power BI Dashboard → Business Insights**
+Raw Data → Data Cleaning → SQL Analysis → Python EDA → Power BI Dashboard → Business Insights
 
----
+🗂️ Dataset
 
-## 🎯 Business Objectives
+The project uses six interconnected datasets covering 2024–2025:
 
-The main objectives of the analysis were to:
+Dataset
 
-1. Analyze overall sales and profitability.
-2. Identify high-performing products and categories.
-3. Evaluate profit margins and discount impact.
-4. Analyze customer purchasing behavior.
-5. Measure delivery performance.
-6. Identify return patterns and major return reasons.
-7. Identify regional performance differences.
-8. Generate actionable business recommendations.
+Records
 
----
-
-## 🗂️ Dataset
-
-The project uses a synthetic e-commerce dataset representing an Indian online marketplace for **2024–2025**.
-
-| Table | Records |
-|---|---:|
-| Customers | 20,000 |
-| Products | 496 |
-| Orders | 100,000 |
-| Order Items | 172,097 |
-| Shipping | 95,783 |
-| Returns | 4,946 |
-
-### Data Model
-
-The project contains six connected tables:
-
-- `customers_clean`
-- `products_clean`
-- `orders_clean`
-- `order_items_clean`
-- `shipping_clean`
-- `returns_clean`
-
-Main relationships:
-
-```text
 Customers
-    │
-    └── Orders
-           │
-           ├── Order Items ─── Products
-           │
-           ├── Shipping
-           │
-           └── Returns
-```
 
----
+20,000
 
-## 🛠️ Tools & Technologies
+Products
 
-- **Excel** — Initial data inspection and cleaning
-- **SQL / MySQL** — Data analysis and business queries
-- **Python**
-  - Pandas
-  - NumPy
-  - Matplotlib
-  - Seaborn
-- **Power BI** — Interactive dashboard and visualization
-- **GitHub** — Project documentation and version control
+496
 
----
+Orders
 
-## 🧹 Data Cleaning
+100,000
 
-The raw datasets were cleaned before analysis.
+Order Items
 
-Major cleaning activities included:
+172,097
 
-- Removed duplicate customer records.
-- Resolved duplicate `Customer_ID` values.
-- Standardized categorical values.
-- Handled missing customer attributes.
-- Converted date columns to proper datetime format.
-- Removed duplicate order-item records.
-- Replaced missing discount values with `0%`.
-- Filled missing delivery-status values using delivery timing.
-- Validated relationships between orders, products, customers, shipping and returns.
+Shipping
 
-After cleaning, the main order-item analysis dataset contained:
+95,783
 
-**172,097 records and 22 analytical columns.**
+Returns
 
----
+4,946
 
-## 📊 Key KPIs
+The datasets represent an India-based e-commerce business with customers, products, orders, shipping information, and returns.
 
-| KPI | Result |
-|---|---:|
-| Net Revenue | **₹673.45M** |
-| Total Profit | **₹172.27M** |
-| Total Orders | **100,000** |
-| Customers | **20,000** |
-| Average Order Value | **₹6.73K** |
-| Profit Margin | **25.58%** |
-| Average Delivery Time | **3.79 days** |
-| On-Time Delivery Rate | **81.89%** |
-| Late Delivery Rate | **18.11%** |
+🧹 Data Cleaning
 
----
+Data cleaning was performed before analysis to improve data quality and consistency.
 
-# 📈 Power BI Dashboard
+Key cleaning steps included:
 
-The final Power BI dashboard contains four analytical pages.
+Removed duplicate customer records
 
-## 1️⃣ Executive Overview
+Resolved duplicate Customer IDs
 
-Provides a high-level view of overall business performance.
+Removed duplicate order-item records
 
-### Includes:
+Handled missing discount values
 
-- Revenue
-- Profit
-- Orders
-- Customers
-- Average Order Value
-- Profit Margin
-- Monthly Revenue Trend
-- Revenue by Category
-- Revenue by State
+Standardized categorical values
 
----
+Converted date columns to proper datetime format
 
-## 2️⃣ Product & Category Analysis
+Filled missing shipping status based on delivery timing
 
-Analyzes product-level and category-level profitability.
+Checked missing values and duplicate records
 
-### Includes:
+Validated relationships between the six datasets
 
-- Top 10 Products by Revenue
-- Top 10 Products by Profit
-- Profit Margin by Category
-- Profit by Discount Range
+🛠️ Tools & Technologies
 
----
+Excel — Initial data inspection and cleaning
 
-## 3️⃣ Operations & Returns Analysis
+MySQL / SQL — Data querying and business analysis
 
-Evaluates logistics performance and product returns.
+Python
 
-### Includes:
+Pandas
 
-- Average Delivery Days
-- On-Time vs Late Deliveries
-- Late Delivery Rate by Shipping Method
-- Late Delivery Rate by State
-- Refund Amount by Return Reason
-- Top 10 Returned Products
+NumPy
 
----
+Matplotlib
 
-## 4️⃣ Customer Analytics
+Seaborn
 
-Analyzes customer purchasing behavior and revenue contribution.
+Power BI — Interactive dashboard and visualization
 
-### Includes:
+GitHub — Project version control and documentation
 
-- New vs Returning Customers
-- Customer Revenue by Segment
-- Top 10 Customers by Revenue
-- Customer Frequency vs Revenue
+📊 Power BI Dashboard
 
----
+The Power BI dashboard contains four analytical pages:
 
-# 🔍 Key Business Insights
+1. Executive Overview
 
-### 1. Electronics is the largest revenue contributor
+Total Revenue
 
-Electronics generated approximately **₹303.8M in revenue** and **₹76.7M in profit**, making it the strongest category by both revenue and absolute profit.
+Total Profit
 
-**Recommendation:** Maintain strong inventory availability for high-performing electronics while closely monitoring supplier costs and margins.
+Total Orders
 
----
+Total Customers
 
-### 2. Home & Kitchen has the highest profit margin
+Average Order Value
 
-Home & Kitchen achieved approximately **28% profit margin**, the highest among the major categories.
+Profit Margin
 
-**Recommendation:** Explore bundles, cross-selling and targeted promotions to increase sales in this high-margin category.
+Monthly Revenue Trend
 
----
+Revenue by Category
 
-### 3. Higher discounts are associated with lower profitability
+Revenue by State
 
-Profit decreased sharply as discount levels increased.
 
-| Discount Range | Profit |
-|---|---:|
-| 0–10% | ₹134.63M |
-| 11–20% | ₹36.41M |
-| 21–30% | ₹1.23M |
-| 30%+ | Negligible |
 
-**Recommendation:** Use targeted discounts instead of broad high-percentage discounts.
+2. Product & Category Analysis
 
-> Note: This shows an association in the dataset and does not prove that discounts alone caused the decline in profit.
+Top 10 Products by Revenue
 
----
+Top 10 Products by Profit
 
-### 4. Delivery performance has room for improvement
+Profit Margin by Category
 
-Approximately **18.11% of deliveries were late**, meaning nearly 1 in 5 deliveries missed the expected delivery target.
+Profit by Discount Range
 
-**Recommendation:** Focus operational improvements on high-delay regions and shipping processes.
 
----
 
-### 5. Product-related issues drive most returns
+3. Operations & Returns Analysis
 
-The four largest return reasons were:
+On-Time vs Late Deliveries
 
-- Size/Fit Issue — 17.77%
-- Product Not as Expected — 17.08%
-- Damaged — 15.99%
-- Poor Quality — 15.45%
+Average Delivery Days
 
-Together they represent approximately **66% of returns**.
+Late Delivery Rate by Shipping Method
 
-**Recommendation:** Improve product descriptions, sizing information, quality checks, packaging and product imagery.
+Late Delivery Rate by State
 
----
+Refund Amount by Return Reason
 
-### 6. Late delivery has only a weak relationship with returns
+Top 10 Returned Products
 
-Return rate:
 
-- Late delivery: **5.27%**
-- On-time delivery: **5.14%**
 
-The difference is only **0.13 percentage points**.
+4. Customer Analytics
 
-This suggests that late delivery alone is not a major return driver in this dataset.
+New vs Returning Customers
 
----
+Customer Revenue by Segment
 
-### 7. Returning customers dominate revenue
+Top 10 Customers by Revenue
 
-Customers with more than one recorded order generated approximately **99.32% of revenue** during the analysis period.
+Customer Purchase Frequency vs Revenue
 
-**Recommendation:** Invest in customer retention, loyalty programs, personalized recommendations and cross-selling.
 
-> In this analysis, "New Customer" means a customer with only one recorded order during the analysis period.
 
----
+📈 Key Business Results
 
-### 8. Revenue declined slightly year-over-year
+Overall Performance
 
-Revenue showed approximately **-1.78% YoY growth**.
+Net Revenue: ₹673.45M
 
-This indicates a need to investigate which products, categories, regions or customer segments contributed to the slowdown.
+Total Profit: ₹172.27M
 
----
+Total Orders: 100K
 
-# 💡 Business Recommendations
+Customers: 20K
 
-Based on the analysis, ShopSphere should:
+Average Order Value: ₹6.73K
 
-### 📦 Improve Operations
-- Investigate high-delay states.
-- Monitor shipping-method performance.
-- Improve fulfillment planning.
+Profit Margin: 25.58%
 
-### 💰 Protect Profitability
-- Reduce excessive discounting.
-- Monitor low-margin products.
-- Promote high-margin categories.
+Product & Category Insights
 
-### 🛍️ Improve Product Experience
-- Improve product descriptions.
-- Provide better sizing information.
-- Strengthen packaging and quality control.
+Electronics generated the highest revenue and profit.
 
-### 👥 Improve Customer Retention
-- Build loyalty programs.
-- Personalize product recommendations.
-- Encourage repeat purchases.
-- Identify and target at-risk customers.
+Home & Kitchen achieved the highest category profit margin at approximately 28%.
 
-### 📈 Investigate Revenue Decline
-- Compare year-over-year category performance.
-- Analyze regional revenue changes.
-- Identify declining products.
-- Study customer-segment performance.
+Wireless Mouse Max was the top product by profit.
 
----
+Higher discount ranges were associated with substantially lower profit.
 
-# 🧮 Important Calculations
+Delivery Insights
 
-### Net Revenue
+81.89% of deliveries were on time.
 
-```text
-Net Revenue =
-Quantity × Unit Selling Price × (1 − Discount %)
-```
+18.11% of deliveries were late.
 
-### Profit
+Average delivery time was approximately 3.79 days.
 
-```text
-Profit =
-Net Revenue − Product Cost
-```
+Punjab recorded the highest late-delivery rate among the analyzed states.
 
-### Profit Margin
+Same Day shipping had the fastest average delivery time but still showed a relatively high late-delivery rate, indicating potential SLA/operational issues.
 
-```text
-Profit Margin =
-Profit / Net Revenue × 100
-```
+Returns Insights
 
-### Average Order Value
+The largest return reasons were:
 
-```text
-AOV =
-Net Revenue / Total Orders
-```
+Size/Fit Issue
 
----
+Product Not as Expected
 
-# 📁 Suggested Project Structure
+Damaged
 
-```text
+Poor Quality
+
+These four reasons accounted for roughly 66% of returns.
+
+Late deliveries showed only a small difference in return rate compared with on-time deliveries, suggesting that delivery delays were not the primary driver of returns in this dataset.
+
+Customer Insights
+
+Returning customers generated the vast majority of revenue during the analysis period.
+
+Rahul Patel was the highest-revenue customer at approximately ₹402.6K.
+
+Customer purchase frequency showed a positive relationship with revenue, although revenue varied considerably among customers with similar order counts.
+
+🔎 SQL Analysis
+
+SQL was used to perform business-focused analysis including:
+
+Revenue and profit analysis
+
+Product performance
+
+Category performance
+
+Customer analysis
+
+State-level performance
+
+Shipping performance
+
+Delivery delays
+
+Return analysis
+
+Return reasons
+
+Customer segmentation
+
+SQL queries are available in:
+
+shopsphere_analysis.sql
+
+🐍 Python EDA
+
+Python was used for exploratory data analysis and deeper investigation.
+
+The notebook includes:
+
+Data loading and validation
+
+Dataset merging
+
+Revenue calculation
+
+Profit calculation
+
+Profit margin analysis
+
+Monthly trends
+
+Category analysis
+
+Product analysis
+
+State analysis
+
+Discount analysis
+
+Delivery analysis
+
+Return analysis
+
+Customer analysis
+
+RFM-based customer segmentation
+
+Notebook:
+
+Python_EDA.ipynb
+
+📁 Repository Structure
+
 ShopSphere-Analytics/
 │
-├── data/
-│   ├── customers_clean.csv
-│   ├── products_clean.csv
-│   ├── orders_clean.csv
-│   ├── order_items_clean.csv
-│   ├── shipping_clean.csv
-│   └── returns_clean.csv
+├── README.md
+├── Python_EDA.ipynb
+├── shopsphere_analysis.sql
 │
-├── sql/
-│   └── shopsphere_analysis.sql
+├── customers_clean.csv
+├── products_clean.csv
+├── orders_clean.csv
+├── order_items_clean.csv
+├── shipping_clean.csv
+├── returns_clean.csv
 │
-├── python/
-│   └── shopsphere_eda.ipynb
-│
-├── powerbi/
-│   └── ShopSphere_Analytics_v1.pbix
-│
-├── screenshots/
-│   ├── executive_overview.png
-│   ├── product_analysis.png
-│   ├── operations_returns.png
-│   └── customer_analytics.png
-│
-└── README.md
-```
+├── dashboard_overview.png
+├── product_category_analysis.png
+├── operations_returns_analysis.png
+└── customer_analytics.png
 
----
+💡 Business Recommendations
 
-# 🚀 Project Workflow
+Based on the analysis:
 
-```text
-Raw E-Commerce Data
-        ↓
-Data Cleaning
-        ↓
-Excel Validation
-        ↓
-SQL Business Analysis
-        ↓
-Python EDA
-        ↓
-Power BI Data Model
-        ↓
-DAX Measures
-        ↓
-Interactive Dashboard
-        ↓
-Business Insights
-        ↓
-Recommendations
-```
+Focus on high-profit products such as Wireless Mouse Max and other strong-margin products.
 
----
+Review high-discount products because larger discounts are associated with significantly lower profit.
 
-# 📌 Conclusion
+Improve delivery operations in states with higher late-delivery rates.
 
-ShopSphere demonstrates an end-to-end **Data Analytics workflow** using multiple industry-relevant tools.
+Investigate product quality and sizing issues because they are major contributors to returns.
 
-The project combines:
+Strengthen customer retention strategies because returning customers contribute most of the revenue.
 
-**Data Cleaning + SQL + Python + Data Visualization + Power BI + Business Analysis**
+Monitor high-value customers and develop targeted offers to improve retention and lifetime value.
 
-rather than focusing only on visualization.
+Improve product descriptions and expectations to reduce "Product Not as Expected" returns.
 
-The analysis identified major revenue drivers, profitable categories, discount-profit relationships, delivery performance issues, return drivers and customer behavior patterns, providing actionable recommendations for improving profitability, operations and customer retention.
+🎯 Project Objective
 
----
+The primary objective of ShopSphere is to demonstrate an end-to-end Data Analytics workflow:
 
-## 👨‍💻 Author
+Data Cleaning → SQL → Python EDA → Power BI → Business Insights
 
-**Abhishek Panchal**
+The project focuses not only on creating visualizations but also on converting data into actionable business recommendations.
+
+👨‍💻 Author
+
+Abhishek Panchal
 
 B.Tech — Artificial Intelligence & Data Science
 
-**Skills demonstrated:**
-
-`Excel` `SQL` `Python` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Power BI` `DAX` `Data Cleaning` `Data Visualization` `Business Analytics`
-
----
-
-⭐ If you find this project useful, feel free to explore the analysis and dashboard.
+GitHub: Anshu-272
